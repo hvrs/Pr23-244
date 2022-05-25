@@ -1,0 +1,12 @@
+C:\Users\Professional\source\repos\pr23-24\pr23-24\bin\Debug\pr23-24.exe.config
+C:\Users\Professional\source\repos\pr23-24\pr23-24\bin\Debug\pr23-24.exe
+C:\Users\Professional\source\repos\pr23-24\pr23-24\bin\Debug\pr23-24.pdb
+C:\Users\Professional\source\repos\pr23-24\pr23-24\obj\Debug\pr23-24.csproj.AssemblyReference.cache
+C:\Users\Professional\source\repos\pr23-24\pr23-24\obj\Debug\pr23-24.csproj.SuggestedBindingRedirects.cache
+C:\Users\Professional\source\repos\pr23-24\pr23-24\obj\Debug\pr23_24.Form1.resources
+C:\Users\Professional\source\repos\pr23-24\pr23-24\obj\Debug\pr23_24.Properties.Resources.resources
+C:\Users\Professional\source\repos\pr23-24\pr23-24\obj\Debug\pr23-24.csproj.GenerateResource.cache
+C:\Users\Professional\source\repos\pr23-24\pr23-24\obj\Debug\pr23-24.csproj.CoreCompileInputs.cache
+C:\Users\Professional\source\repos\pr23-24\pr23-24\obj\Debug\pr23-24.exe
+C:\Users\Professional\source\repos\pr23-24\pr23-24\obj\Debug\pr23-24.pdb
+C:\Users\Professional\source\repos\Pr23-24\pr23-24\obj\Debug\pr23_24.colorForm.resources
