@@ -120,7 +120,7 @@
             this.exitToolStripMenuItem.Image = global::pr23_24.Properties.Resources._4115230_cancel_close_cross_delete_114048;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.X)));
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -162,7 +162,7 @@
             this.colorToolStripMenuItem});
             this.penToolStripMenuItem.Image = global::pr23_24.Properties.Resources.pen_black_diagonal_symbol_of_writing_tool_icon_icons_com_54470;
             this.penToolStripMenuItem.Name = "penToolStripMenuItem";
-            this.penToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.penToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.penToolStripMenuItem.Text = "Pen";
             // 
             // styleToolStripMenuItem
@@ -204,7 +204,7 @@
             // 
             this.colorToolStripMenuItem.Image = global::pr23_24.Properties.Resources.color_palette_brush_paint_icon_193857;
             this.colorToolStripMenuItem.Name = "colorToolStripMenuItem";
-            this.colorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colorToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.colorToolStripMenuItem.Text = "Color";
             this.colorToolStripMenuItem.Click += new System.EventHandler(this.colorToolStripMenuItem_Click);
             // 
@@ -236,7 +236,7 @@
             this.close});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(24, 426);
+            this.toolStrip1.Size = new System.Drawing.Size(32, 426);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -295,9 +295,9 @@
             this.panel1.Controls.Add(this.trackBar1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(24, 395);
+            this.panel1.Location = new System.Drawing.Point(32, 395);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(787, 55);
+            this.panel1.Size = new System.Drawing.Size(779, 55);
             this.panel1.TabIndex = 3;
             // 
             // trackBar1

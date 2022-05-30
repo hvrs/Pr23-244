@@ -53,6 +53,9 @@ namespace pr23_24
                     case DialogResult.Cancel: return;
                 }
             }
+            Graphics g = Graphics.FromImage(picDrawingSurface.Image);
+            g.Clear(Color.White);
+            g.DrawImage(picDrawingSurface.Image, 0, 0, 761, 353);
         }
 
         private void picDrawingSurface_MouseDown(object sender, MouseEventArgs e)
@@ -85,12 +88,7 @@ namespace pr23_24
             SaveDlg.Title = "Save an Image File";
             SaveDlg.FilterIndex = 4;
             SaveDlg.ShowDialog();
-
-            Graphics g = Graphics.FromImage(picDrawingSurface.Image);
-            g.Clear(Color.White);
-            g.DrawImage(picDrawingSurface.Image, 0, 0, 750, 500);
-
-
+                       
             if (SaveDlg.FileName != "")
             {
                 System.IO.FileStream fs = (System.IO.FileStream)SaveDlg.OpenFile();
@@ -143,6 +141,9 @@ namespace pr23_24
                     case DialogResult.Cancel: return;
                 }
             }
+            Graphics g = Graphics.FromImage(picDrawingSurface.Image);
+            g.Clear(Color.White);
+            g.DrawImage(picDrawingSurface.Image, 0, 0, 761, 353);
         }
 
         private void openFile_Click(object sender, EventArgs e)
@@ -169,18 +170,14 @@ namespace pr23_24
             SaveDlg.Title = "Save an Image File";
             SaveDlg.FilterIndex = 4;
             SaveDlg.ShowDialog();
-
-            Graphics g = Graphics.FromImage(picDrawingSurface.Image);
-            g.Clear(Color.White);
-            g.DrawImage(picDrawingSurface.Image, 0, 0, 750, 500);
-
-
+                      
             if (SaveDlg.FileName != "")
             {
                 System.IO.FileStream fs = (System.IO.FileStream)SaveDlg.OpenFile();
                 switch (SaveDlg.FilterIndex)
                 {
                     case 1:
+                        
                         this.picDrawingSurface.Image.Save(fs, ImageFormat.Jpeg);
                         break;
                     case 2:
