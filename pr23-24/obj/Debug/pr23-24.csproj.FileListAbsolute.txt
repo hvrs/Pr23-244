@@ -10,3 +10,14 @@ C:\Users\Professional\source\repos\pr23-24\pr23-24\obj\Debug\pr23-24.csproj.Core
 C:\Users\Professional\source\repos\pr23-24\pr23-24\obj\Debug\pr23-24.exe
 C:\Users\Professional\source\repos\pr23-24\pr23-24\obj\Debug\pr23-24.pdb
 C:\Users\Professional\source\repos\Pr23-24\pr23-24\obj\Debug\pr23_24.colorForm.resources
+G:\ОАП\Pr23-244\pr23-24\bin\Debug\pr23-24.exe.config
+G:\ОАП\Pr23-244\pr23-24\bin\Debug\pr23-24.exe
+G:\ОАП\Pr23-244\pr23-24\bin\Debug\pr23-24.pdb
+G:\ОАП\Pr23-244\pr23-24\obj\Debug\pr23-24.csproj.AssemblyReference.cache
+G:\ОАП\Pr23-244\pr23-24\obj\Debug\pr23_24.colorForm.resources
+G:\ОАП\Pr23-244\pr23-24\obj\Debug\pr23_24.Form1.resources
+G:\ОАП\Pr23-244\pr23-24\obj\Debug\pr23_24.Properties.Resources.resources
+G:\ОАП\Pr23-244\pr23-24\obj\Debug\pr23-24.csproj.GenerateResource.cache
+G:\ОАП\Pr23-244\pr23-24\obj\Debug\pr23-24.csproj.CoreCompileInputs.cache
+G:\ОАП\Pr23-244\pr23-24\obj\Debug\pr23-24.exe
+G:\ОАП\Pr23-244\pr23-24\obj\Debug\pr23-24.pdb

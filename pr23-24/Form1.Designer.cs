@@ -246,7 +246,7 @@
             this.newFile.Image = global::pr23_24.Properties.Resources.newfile_85903;
             this.newFile.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.newFile.Name = "newFile";
-            this.newFile.Size = new System.Drawing.Size(29, 20);
+            this.newFile.Size = new System.Drawing.Size(21, 20);
             this.newFile.Text = "toolStripButton1";
             this.newFile.Click += new System.EventHandler(this.newFile_Click);
             // 
@@ -256,7 +256,7 @@
             this.openFile.Image = global::pr23_24.Properties.Resources.openfolder_4896;
             this.openFile.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.openFile.Name = "openFile";
-            this.openFile.Size = new System.Drawing.Size(29, 20);
+            this.openFile.Size = new System.Drawing.Size(21, 20);
             this.openFile.Text = "toolStripButton2";
             this.openFile.Click += new System.EventHandler(this.openFile_Click);
             // 
@@ -266,7 +266,7 @@
             this.saveFile.Image = global::pr23_24.Properties.Resources.saveas_5165;
             this.saveFile.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveFile.Name = "saveFile";
-            this.saveFile.Size = new System.Drawing.Size(29, 20);
+            this.saveFile.Size = new System.Drawing.Size(21, 20);
             this.saveFile.Text = "toolStripButton3";
             this.saveFile.Click += new System.EventHandler(this.saveFile_Click);
             // 
@@ -276,7 +276,7 @@
             this.color.Image = global::pr23_24.Properties.Resources.color_palette_brush_paint_icon_193857;
             this.color.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.color.Name = "color";
-            this.color.Size = new System.Drawing.Size(29, 20);
+            this.color.Size = new System.Drawing.Size(21, 20);
             this.color.Text = "toolStripButton4";
             this.color.Click += new System.EventHandler(this.color_Click);
             // 
@@ -286,7 +286,7 @@
             this.close.Image = global::pr23_24.Properties.Resources._4115230_cancel_close_cross_delete_114048;
             this.close.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(29, 20);
+            this.close.Size = new System.Drawing.Size(21, 20);
             this.close.Text = "toolStripButton5";
             this.close.Click += new System.EventHandler(this.close_Click);
             // 
@@ -342,8 +342,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(811, 450);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -351,7 +350,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "drawing";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);

@@ -1,14 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
+using System.Windows.Forms;
 
 namespace pr23_24
 {
@@ -24,7 +19,11 @@ namespace pr23_24
 
         public Form1()
         {
+
             InitializeComponent();
+            panel2.AutoScroll = true;
+            panel2.HorizontalScroll.Enabled = true;
+            panel2.VerticalScroll.Visible = true;
             drawing = false;
             currentPen = new Pen(Color.Black);
             currentPen.Width = trackBar1.Value;
@@ -113,15 +112,27 @@ namespace pr23_24
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            History.Clear();
-            historyCounter = 0;
-            History.Add(new Bitmap(picDrawingSurface.Image));
-            OpenFileDialog OP = new OpenFileDialog();
-            OP.Filter = "JPEG Image|*.jpg|BitmapImage|*.bmp|GIFImage|*.gif|PNGImage|*.png";
-            OP.Title = "Open an Image File";
-            OP.FilterIndex = 1;
-            if (OP.ShowDialog() != DialogResult.Cancel) picDrawingSurface.Load(OP.FileName);
-            picDrawingSurface.AutoSize = true;
+            try
+            {
+                History.Clear();
+                historyCounter = 0;
+                History.Add(new Bitmap(picDrawingSurface.Image));
+                OpenFileDialog OP = new OpenFileDialog();
+                OP.Filter = "JPEG Image|*.jpg|BitmapImage|*.bmp|GIFImage|*.gif|PNGImage|*.png";
+                OP.Title = "Open an Image File";
+                OP.FilterIndex = 1;
+
+                if (OP.ShowDialog() != DialogResult.Cancel)
+                {
+                    picDrawingSurface.Load(OP.FileName);
+                    picDrawingSurface.AutoSize = true;
+                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Сначала создайте файл!");
+            }
         }
 
         private void newFile_Click(object sender, EventArgs e)
@@ -148,19 +159,28 @@ namespace pr23_24
 
         private void openFile_Click(object sender, EventArgs e)
         {
-            History.Clear();
-            historyCounter = 0;
-            History.Add(new Bitmap(picDrawingSurface.Image));
-            OpenFileDialog OP = new OpenFileDialog();
-            OP.Filter = "JPEG Image|*.jpg|BitmapImage|*.bmp|GIFImage|*.gif|PNGImage|*.png";
-            OP.Title = "Open an Image File";
-            OP.FilterIndex = 1;
-
-            if (OP.ShowDialog() != DialogResult.Cancel)
+            try
             {
-                picDrawingSurface.Load(OP.FileName);
-                picDrawingSurface.AutoSize = true;
+                History.Clear();
+                historyCounter = 0;
+                History.Add(new Bitmap(picDrawingSurface.Image));
+                OpenFileDialog OP = new OpenFileDialog();
+                OP.Filter = "JPEG Image|*.jpg|BitmapImage|*.bmp|GIFImage|*.gif|PNGImage|*.png";
+                OP.Title = "Open an Image File";
+                OP.FilterIndex = 1;
+
+                if (OP.ShowDialog() != DialogResult.Cancel)
+                {
+                    picDrawingSurface.Load(OP.FileName);
+                    picDrawingSurface.AutoSize = true;
+                }
             }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Сначала создайте файл!");
+            }
+            
         }
 
         private void saveFile_Click(object sender, EventArgs e)
